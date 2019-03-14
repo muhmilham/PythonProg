@@ -1,0 +1,15 @@
+#Function
+def reverse(r): 
+    array = ' '
+    for i in r: 
+        array = i + array 
+    print(array)
+    
+#Loop
+while True:
+
+	data = input("ketik apapun ( q untuk exit ) : ")
+	if data.lower()== 'q':
+		break
+	else:
+		reverse(data)
